@@ -13,3 +13,21 @@
 .externalNativeBuild
 .cxx
 local.properties
+
+# Archivos de firma y claves (SEGURIDAD)
+*.keystore
+*.jks
+release/
+
+# APIs de Google/Firebase (SEGURIDAD)
+google-services.json
+app/google-services.json
+
+# Variables de entorno (SEGURIDAD)
+.env
+.env.local
+.env.*.local
+
+# Archivos de configuración con claves API (SEGURIDAD)
+# Si usas un archivo de configuración personalizado, agrégalo aquí
+# config/api_keys.properties
